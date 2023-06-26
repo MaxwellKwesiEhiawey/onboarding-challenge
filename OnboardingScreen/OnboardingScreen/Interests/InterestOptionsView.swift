@@ -13,14 +13,16 @@ struct InterestOptionsView: View {
     var body: some View {
         ZStack(alignment: .topTrailing) {
 
-                VStack(alignment: .center, spacing: screen.screenSize.height*0.05) {
-                    Text("Let’s get started by \npicking some interests.")
-                        .font(.system(size: 40, weight: .bold))
-                        .multilineTextAlignment(.center)
-                        .frame( height: 100)
-                    Text("Alright, let's pick something we're interested \nin and get started!")
-                        .frame( height: 60)
-                    VStack(spacing: 16) {
+                VStack(alignment: .center, spacing: screen.screenSize.height*0.045) {
+                    VStack(spacing: 10) {
+                        Text("Let’s get started by \npicking some interests.")
+                            .font(.system(size: 40, weight: .bold))
+                            .multilineTextAlignment(.center)
+                            .frame( height: 100)
+                        Text("Alright, let's pick something we're interested \nin and get started!")
+                            .frame( height: 60)
+                    }
+                    VStack(spacing: 8) {
                         HStack(spacing: 16) {
                             Image("interestgaming")
                             Image("interestfashion")
@@ -43,10 +45,10 @@ struct InterestOptionsView: View {
                             RoundedRectangle(cornerRadius: 8)
                                 .stroke(Color("ColorBlueBG"), lineWidth: 1)
                         )
-                        .padding(.top, 16)
+                        .padding(.bottom, 8)
                 }
                 .multilineTextAlignment(.center)
-                .frame(height: screen.screenSize.height*0.70)
+                .frame(height: screen.screenSize.height*0.80)
             .padding(.top, 48)
             .font(.system(size: 22, weight: .regular))
             .frame(maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)

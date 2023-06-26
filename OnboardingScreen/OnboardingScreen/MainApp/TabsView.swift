@@ -38,7 +38,7 @@ struct TabsView: View {
             }, imageName: .success)
                 .tag(4)
         }.highPriorityGesture(DragGesture())
-        // .tabViewStyle(PageTabViewStyle())
+       //.tabViewStyle(PageTabViewStyle())
     }
 }
 
