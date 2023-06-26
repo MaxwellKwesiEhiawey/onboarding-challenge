@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "wepik-export-20230509105334DQz8 1pagethree@1x.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "wepik-export-20230509105334DQz8 1pagethree@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "wepik-export-20230509105334DQz8 1pagethree@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
