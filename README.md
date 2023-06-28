@@ -9,8 +9,12 @@ The "Tabview" accepts "selection" argument which can be updated by a state varia
 
 Updating the selection with a tag value will present the view with that tag value only.
 
+The "selection" is updated from each view by @Binding property(like props in react)
+
 This can be used to switch views without navigation/routing.
 
 This is the idea used for the onboarding challenge for iPadOS/MacOS.
+
+Restricted to landscape orientation
 
  
